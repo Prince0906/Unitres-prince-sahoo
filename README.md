@@ -18,5 +18,5 @@ If you want to register as a user, you could use an email like:
 
 Enjoy exploring the dynamic role-based functionalities!
 
-## Disclaimer: This is the frontend only , backend is currently in development 
+## Disclaimer: This is the frontend only , backend is currently in development phase but website is dynamic.
 
