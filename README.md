@@ -16,7 +16,10 @@ If you want to register as a admin, you could use an email like:
 If you want to register as a user, you could use an email like:  
 `john@user.com`
 
-Enjoy exploring the dynamic role-based functionalities!
+### 🚀 Demo
+Watch the demo here:
+
+[![Watch the demo](https://img.youtube.com/vi/SxWAIKTT-Ec/0.jpg)](https://youtu.be/SxWAIKTT-Ec)
 
 ## Disclaimer: This is the frontend only , backend is currently in development phase but website is dynamic.
 
