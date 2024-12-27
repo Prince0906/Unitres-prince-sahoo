@@ -18,6 +18,10 @@ const Sidebar: React.FC = () => {
     navigate('/login');
   };
 
+  const handleProfileClick = () => {
+    navigate('/profile');
+  };
+
   return (
     <div className="w-64 bg-white border-r border-neutral-200 h-screen flex-shrink-0 overflow-y-auto flex flex-col">
       <div className="p-6 border-b border-neutral-200">
@@ -60,17 +64,20 @@ const Sidebar: React.FC = () => {
 
       <div className="p-4 border-t border-neutral-200">
         <div className="space-y-4">
-          <div className="flex items-center px-4 py-3 rounded-lg bg-neutral-50">
+          <button
+            onClick={handleProfileClick}
+            className="w-full flex items-center px-4 py-3 rounded-lg bg-neutral-50 hover:bg-neutral-100 transition-colors"
+          >
             <img
               src={`https://ui-avatars.com/api/?name=${user?.username}&background=0D8ABC&color=fff`}
               alt="Profile"
               className="w-8 h-8 rounded-full"
             />
-            <div className="ml-3">
+            <div className="ml-3 text-left">
               <p className="text-sm font-medium text-neutral-900">{user?.username}</p>
               <p className="text-xs text-neutral-500 capitalize">{user?.role}</p>
             </div>
-          </div>
+          </button>
           
           <button
             onClick={handleLogout}
